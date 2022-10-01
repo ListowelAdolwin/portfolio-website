@@ -1,0 +1,28 @@
+body{
+    color: white;
+    background-color: rgb(167, 133, 133);
+}
+
+header{
+    font-size: x-large;
+    align-items: right;
+    display: flex;
+
+}
+
+img{
+    width: 300px;
+    height: 350px;
+}
+
+#pictures{
+    border-radius: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+#footer{
+    text-align: center;
+    color: red;
+}
