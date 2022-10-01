@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListowelAdolwin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>
+        Listowel Adolwin
+    </h1>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Blogs</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+
+    <main>
+        <!-- Section for myself and mentor's pictures-->
+        <section id = "pictures">
+            <figure>
+                <figcaption> Just a gentleman</figcaption>
+                <img width = "50%", height = "50%" src = "images/my_self.jpg" alt = "A cute picture of me wearing glasses">
+            </figure>
+
+            <figure>
+                <figcaption> My mentor, <em>Ivy</em></figcaption>
+                <img width = "50%", height = "50%" src = "images/my_mentor.jpg" alt = "A cute picture of Ivy, my mentor">
+            </figure>
+        </section>
+        <!-- Form to collect data about upcoming developers-->
+        <section>
+            <h3>Upcoming Developers form</h3>
+            <form action = "#">
+                <fieldset>
+                    <legend>What stack do you want to join? </legend>
+                    <input type = "checkbox" id = "front-end", name = "stack", value = "front-end">
+                    <label for = "front-end">Front end</label>
+
+                    <input type = "checkbox" id = "back-end", name = "stack", value = "back-end">
+                    <label for = "back-end">Back end</label>
+
+                    <input type = "checkbox" id = "mobile-dev", name = "stack", value = "mobile-dev">
+                    <label for = "mobile-dev">Mobile development</label>
+
+                    <input type = "checkbox" id = "ui-ux", name = "stack", value = "ui-ux">
+                    <label for = "ui-ux">UI/UX design</label>
+
+                </fieldset>
+                <br>
+                <fieldset>  <!--Fieldset is used to organize similar objects together-->
+                    <legend>Is this your first job application?</legend> <!--The legend element gives a caption to the fieldset-->
+                        <label>
+                            <input name = "status" type = "radio", id = "yes", value = "yes" checked >Yes
+                        </label>
+                        <label>
+                            <input name = "status" type = "radio", id = "no", value = "no">No
+                        </label>
+                </fieldset>
+                <label>
+                    <input type = "text", name = "name", placeholder="Please enter your name", required>
+                </label>
+                <label>
+                    <button type = "submit"> Submit </button>
+                </label>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <br>
+        <br>
+        <hr>
+        <p id = "footer">
+            Designed and built by @ListowelAdolwin
+        </p>
+    </footer>
+</body>
+</html>
+
+
+<!-- THINGS YOU MIGHT USE
+
+1. Figure element
+2. -->
