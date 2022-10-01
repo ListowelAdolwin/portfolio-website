@@ -3,20 +3,55 @@ body{
     background-color: rgb(167, 133, 133);
 }
 
-header{
+/*header{
     font-size: x-large;
     align-items: right;
     display: flex;
 
 }
 
+
+
+.logo{
+    margin-top: 10px;
+    font-size: large;
+}
+
+*/
+
+.main-nav{
+    display: flex;
+    align-items: center;
+    background-color: red;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.header-ul{
+}
+
+.header-ul li{
+    display: inline-flex;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.header-ul li a{
+    text-decoration: none;
+}
+
+.header-ul li a:hover{
+    color: rgb(23, 20, 20);
+}
 img{
     width: 300px;
     height: 350px;
+    border-radius: 35px;
 }
 
 #pictures{
-    border-radius: 60%;
     margin-right: auto;
     margin-left: auto;
     display: flex;
@@ -26,3 +61,4 @@ img{
     text-align: center;
     color: red;
 }
+
