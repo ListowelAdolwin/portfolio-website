@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="main-nav">
-            <h1 class="logo">Listowel Adolwin</h1>
-    
-            <ul class="header-ul">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">Blogs</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-
-        </nav>
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="my logo">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
     <main>
-        <!-- Section for myself and mentor's pictures-->
+         <!--
+        Section for myself and mentor's pictures
+
         <section id = "pictures">
             <figure>
                 <figcaption> Just a gentleman</figcaption>
@@ -39,7 +39,9 @@
             </figure>
 
         </section>
-        <!-- Form to collect data about upcoming developers-->
+
+
+         Form to collect data about upcoming developers
         <section>
             <h3>Upcoming Developers form</h3>
             <form action = "#">
@@ -59,8 +61,8 @@
 
                 </fieldset>
                 <br>
-                <fieldset>  <!--Fieldset is used to organize similar objects together-->
-                    <legend>Is this your first job application?</legend> <!--The legend element gives a caption to the fieldset-->
+                <fieldset>  Fieldset is used to organize similar objects together
+                    <legend>Is this your first job application?</legend> The legend element gives a caption to the fieldset
                         <label>
                             <input name = "status" type = "radio", id = "yes", value = "yes" checked >Yes
                         </label>
@@ -76,14 +78,22 @@
                 </label>
             </form>
         </section>
+    -->
+    <section class="main">
+        <p class="about-me"><img id = "profile-pic" src = "images/newpic.jpg" alt = "A cute picture of me wearing glasses">
+           <span>Hi, I am <h1>Moro Listowel Adolwin.</h1>
+            I am a <h2>Software Engineer</h2>
+            I love to code and build cool projects.
+            In my leisure, I listen to music (Alan Walker and Sarkodie are my favorites lol). I play volleyball too once a while to keep fit.
+            I am in for opportunities. Want to colloborate to build something? Hit me up
+        </span>
+        </p>
+    </section>
     </main>
-
+    <hr>
     <footer>
-        <br>
-        <br>
-        <hr>
-        <p id = "footer">
-            Designed and built by @ListowelAdolwin
+        <p>
+            Designed and built by @<a href="https://github.com/ListowelAdolwin">ListowelAdolwin</a>
         </p>
     </footer>
 </body>
