@@ -11,9 +11,9 @@
     <nav class="navbar">
         <img class="logo" src="images/logo.png" alt="my logo">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About Me</a></li>
+            <li><a href="#footer">Home</a></li>
+            <li><a href="#blog-posts">Blog</a></li>
+            <li><a href="#my-self">About Me</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
@@ -81,21 +81,70 @@
     -->
     <section class="main">
         <p class="about-me"><img id = "profile-pic" src = "images/newpic.jpg" alt = "A cute picture of me wearing glasses">
-           <span>Hi, I am <h1>Moro Listowel Adolwin.</h1>
-            I am a <h2>Software Engineer</h2>
+           <nav>Hi, I am <span id="my-name">Moro Listowel Adolwin.</span>
+           <br>
+           <br>
+            I am a <span id="my-career">Software Engineer.</span>
+            <br>
             I love to code and build cool projects.
             In my leisure, I listen to music (Alan Walker and Sarkodie are my favorites lol). I play volleyball too once a while to keep fit.
             I am in for opportunities. Want to colloborate to build something? Hit me up
-        </span>
+        </nav>
         </p>
     </section>
+    <section class="body-summary">
+    <section id="blog-posts">
+        <h2>Blog Posts</h2>
+        <div class = blog>
+            <h3>New to Programming? Let me get you started</h3>
+            <p>I understand how frustrating it be get, trying to figure
+                out your way. I have been there before. First, just chillax
+                and know that is absolutely fine, and trust me, you'll be fine.
+                <a class="read-more" href="http://google.com" target="_blank" rel="noopener noreferrer">Read More</a>
+            </p>
+        </div>
+        <div class = blog>
+            <h3>New to Programming? Let me get you started</h3>
+            <p>I understand how frustrating it be get, trying to figure
+                out your way. I have been there before. First, just chillax
+                and know that is absolutely fine, and trust me, you'll be fine.
+                <a class="read-more" href="http://google.com" target="_blank" rel="noopener noreferrer">Read More</a>
+            </p>
+        </div><div class = blog>
+            <h3>New to Programming? Let me get you started</h3>
+            <p>I understand how frustrating it be get, trying to figure
+                out your way. I have been there before. First, just chillax
+                and know that is absolutely fine, and trust me, you'll be fine.
+                <a class="read-more" href="http://google.com" target="_blank" rel="noopener noreferrer">Read More</a>
+            </p>
+        </div>
+    </section>
+
+    <section id="my-self">
+        <h2>About Me</h2>
+        <div class = blog>
+            <h3>A bit of my journey</h3>
+            <p> Okay, something small about me. I grew up in a family
+                where no one had a computer. During my SHS days, My ICT teacher
+                introduced my computing with his laptop.
+                As I played games with it, I grew fonder of computers everyday.
+                Yes, that was how it all started and now, I code everyday.
+                Check my github to confirm
+                <a class="read-more" href="http://google.com" target="_blank" rel="noopener noreferrer">Read More</a>
+            </p>
+        </div>
+    </section>
+</section>
     </main>
-    <hr>
-    <footer>
-        <p>
-            Designed and built by @<a href="https://github.com/ListowelAdolwin">ListowelAdolwin</a>
+<!--     <hr>
+ -->    <footer>
+        <p id="footer">
+            Designed and built by @<a href="https://github.com/ListowelAdolwin" target="_blank">ListowelAdolwin</a>
         </p>
     </footer>
+    <script>
+        document.getElementById("footer").style.color = "red";
+    </script>
 </body>
 </html>
 
