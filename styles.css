@@ -4,6 +4,7 @@
 } */
 
 body{
+    box-sizing: border-box;
     color: white;
     background-color: rgb(45, 43, 37);
     font-family: sans-serif, Arial, Helvetica;
@@ -54,47 +55,68 @@ hr{
 }
 
 .navbar li a:hover{
-    background-color: rgb(74, 40, 40);
+    background-color: rgb(93, 104, 44);
     border-radius: 1%;
     padding: 0 18px;
 
 }
+
+.body-summary{
+    background-color: rgb(46, 56, 37);
+}
 .main{
     /* margin-left: 20px; */
-}
-
-.main p{
+    margin-right: 100px;
     line-height: 5px;
 }
 
-.main span{
+.about-me{
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+#my-name, #my-career{
+    font-size: 30px;
+    color:rgb(110, 180, 40);
+    margin: 0 10px;
+}
+
+.main nav{
     margin-top: 90px;
     line-height: 30px;
+    font-size: 20px;
+
 }
 #profile-pic{
     float: left;
     width: 300px;
     height: 300px;
-    border-radius: 70%;
+    border-radius: 100%;
     margin-left: 30px;
     margin-right: 30px;
-
-}
-#pictures img{
-    width: 300px;
-    height: 350px;
-    border-radius: 35px;
+    margin-bottom: 70px;
 }
 
-#pictures{
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
+#blog-posts, #my-self{
+    clear: left;
+    text-align: center;
+    font-size: large;
+}
+.blog{
+    text-align: left;
+    clear:left;
+    margin:50px 20px 0 20px;
+    padding: 0 50px;
 }
 
+.read-more{
+    color:rgb(224, 27, 27);
+    text-decoration: underline;
+}
 footer{
-    position: absolute;
-    bottom: 0;
+    margin-top: 20px;
+    /*position: absolute;
+    bottom: 0;*/
 /*     height: 2.5rem;
  */  /*   background-color: darkslategrey; */
     text-align: center;
