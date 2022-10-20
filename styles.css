@@ -2,6 +2,11 @@
     padding:0;
     margin:0;
 } */
+html{
+
+    scroll-behavior: smooth;
+
+    }
 
 body{
     box-sizing: border-box;
@@ -39,6 +44,7 @@ hr{
     margin-right: 40px;
 /*     position: fixed;
     top: 0%; */
+
 }
 .navbar li{
     display: inline-block;
@@ -57,28 +63,35 @@ hr{
 }
 
 .navbar li a:hover{
-    background-color: rgb(93, 104, 44);
+
+    background-color: rgba(180, 223, 25, 0.8);
     border-radius: 1%;
     padding: 0 18px;
-
+    border-radius: 5px;
+    /*     background-color: rgb(93, 104, 44);
+ */
 }
 
 .body-summary{
-/*     background-color: rgb(46, 56, 37, 0.7);
- */    padding-bottom: 30px;
+    padding-bottom: 30px;
+    /*     background-color: rgb(46, 56, 37, 0.7);
+ */
 }
 .main{
-    /* background: url("Cascade Website/images/img3.jpg"); */
+    line-height: 5px;
     clear:right;
+    display: flex;
+    background-color: rgb(110, 122, 80);
+    /* background: url("Cascade Website/images/img3.jpg"); */
     /* margin-left: 20px; */
     /* margin-right: 100px; */
-    line-height: 5px;
 }
 
 .about-me{
-    margin-left: 300px;
-    padding: 10px;
-    width: 64%;
+/*     margin-left: 300px;
+ */    padding: 10px;
+    margin: 0;
+    width: 200%;
     height: 90%;
     font-size: 20px;
     border: 1px solid rgb(97, 76, 76);
@@ -93,6 +106,7 @@ hr{
     opacity: 0.6;
     padding: 5px 10px 5px 10px;
     border-radius: 20%/50%;
+    font-weight: 900;
 }
 
 #email:hover{
@@ -103,11 +117,13 @@ hr{
     font-size: 30px;
     color:rgb(110, 180, 40);
     margin: 0 10px;
+    text-shadow: 2px 2px rgb(176, 53, 42);
 }
 
 .main nav{
-    margin-top: 55px;
-    line-height: 1.6;
+/*     margin-top: 55px;
+ */    line-height: 1.6;
+    padding: 10px;
     font-size: 20px;
 
 }
@@ -124,31 +140,41 @@ fit in a container
   }
 
 #profile-pic{
-    float: left;
-    width: 20%;
+/*     float: left;
+ */    width: 40%;
     height: auto;
-    margin-left: 30px;
-    border-radius: 10%/10%;
-    margin-right: 30px;
-    opacity: .7;
-/*     z-index: -1;
+/*     margin-left: 30px;
+ */    border-radius: 25px;
+/*     margin-right: 30px;
+ */    opacity: .7;
+    border: 2px solid rgb(181, 163, 93);
+    /*     border-radius: 10%/10%;
+ */
+/*     box-shadow: 2px 2px 2px rgb(132, 46, 46);
+ *//*     z-index: -1;
  */}
 #profile-pic:hover{
     opacity: 1;
 }
 
-#blog-posts, #my-self{
+#blog-posts{
     clear: both;
     text-align: center;
     font-size: larger;
-/*     border: 1px solid rgb(159, 138, 138);
- */    border-radius: 1%/5%;
+    border-radius: 1%/5%;
     margin-top: 2px;
+    background: url(images/bg1.jpg), no-repeat center fixed;
+    background-size: cover;
+    /*     border: 1px solid rgb(159, 138, 138);
+ */
 }
 
 .blog-posts-heading, .about-me-heading{
     padding-top: 25px;
     font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px red;
 }
 .blog{
     box-sizing: border-box;
@@ -164,14 +190,6 @@ fit in a container
 
 /*     float:left;
  */}
- .my-description{
-    text-align: left;
-    clear:left;
-    margin:30px 20px 0 20px;
-    padding: 0 50px;
-    border: 1px solid rgb(97, 76, 76);
-    border-left: 10px solid rgb(97, 76, 76);
- }
 
  /* Newsletter form */
  input[type=text], select, textarea {
@@ -245,13 +263,6 @@ background-color: aliceblue;
     }
   }
 
-.my-description{
-    text-align: left;
-    clear:left;
-    margin:50px 20px 0 20px;
-    padding: 0 50px;
-}
-
 .read-more{
     color:rgb(197, 61, 61);
     text-decoration: underline;
@@ -263,23 +274,25 @@ footer{
     bottom: 0;*/
 /*     height: 2.5rem;
  */  /*   background-color: darkslategrey; */
+    margin-top: 30px;
+    clear: both;
     text-align: center;
     width: 100%;
     height: 70px;
     color: white;
+    display: inline-block;
 }
 footer p{
-    float: left;
+   /*  float: left;
     padding-top: 15px;
-    padding-left: 250px;
+    padding-left: 250px; */
 }
 
-.icons{
-    clear: both;
+#icons{
     align-items: center;
-    padding:15px 0px 0px 10px;
+    padding:10px 0px 0px 10px;
 }
-.icons ul li{
+#icons ul li{
     display: inline;
     list-style: none;
 
@@ -289,6 +302,6 @@ footer p{
     border-radius: 20%/50%;
 }
 
-.icons ul li:hover{
+#icons ul li:hover{
     opacity: 1;
 }
