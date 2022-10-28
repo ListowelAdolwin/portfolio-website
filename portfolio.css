@@ -92,11 +92,12 @@ main{
 }
 
 .about-me {
+  text-align: justify;
   font-size: 1.2rem;
   padding: 20px;
-  border: 1px solid rgb(97, 76, 76);
-  border-radius: 10px;
-  line-height: 35px;
+/*   border: 1px solid rgb(97, 76, 76);
+ */  border-radius: 10px;
+  line-height: 40px;
 }
 
 #email{
@@ -200,6 +201,8 @@ hr{
   text-align: left;
   width: 100%;
   color: white;
+  width: 90%;
+  margin: auto;
 }
 
 input[type=text], select, textarea {
@@ -209,12 +212,11 @@ input[type=text], select, textarea {
   resize: vertical;
   color: white;
   background-color: rgba(88, 119, 88, 0.1);
-  width: 50%;
+  width: 100%;
 }
 
 label {
   clear:both;
- padding: 12px 12px 2px 12px;
 }
 
 input[type=submit] {
@@ -230,16 +232,24 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 .row{
-  margin: 10px;
+  margin: 20px;
 }
 
 .col-25{
-  display: inline;
+  display: block;
+  padding-bottom: 5px;
 }
 
 .col-75{
-  display: inline;
+  display: block;
+  width: 100%;
 }
+
+.submit-btn{
+  margin-top: 0px;
+  text-align: right;
+}
+
 footer {
   margin-top: 50px;
   padding-bottom: 20px;
@@ -255,8 +265,12 @@ footer {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
+    margin-top: 30px;
 }
 
+hr{
+  height: 0.001px;
+}
 .footer-name{
     text-decoration: cadetblue;
     color: white;
@@ -269,7 +283,7 @@ footer ul li a{
     color: white;
     padding: 5px 20px;
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 
